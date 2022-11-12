@@ -48,6 +48,30 @@
   }
 },
 {
+  "model": "webapp.bookguest",
+  "pk": 43,
+  "fields": {
+    "name": "bdskabdjkwq",
+    "email": "dqw@gmail.com",
+    "content": "qwdddddddddddddddddddddddnaskndkasndlkasnlkddddddddddddddddddddddddddddddddasadasdasdasdasdasdasdsadsadas",
+    "create": "2022-11-12",
+    "update": "2022-11-12",
+    "choice": "Blocked"
+  }
+},
+{
+  "model": "webapp.bookguest",
+  "pk": 44,
+  "fields": {
+    "name": "dqwdbqwhjbdjqwbdjkqw",
+    "email": "wqdqwdqwd@gmail.com",
+    "content": "wdqwdqwdqwdqwdqwdqwdqwdqw",
+    "create": "2022-11-12",
+    "update": "2022-11-12",
+    "choice": "Blocked"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
