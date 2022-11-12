@@ -1,0 +1,68 @@
+[
+{
+  "model": "webapp.bookguest",
+  "pk": 3,
+  "fields": {
+    "name": "Jotaro",
+    "email": "jojo_reference@example.com",
+    "content": "asdqwfkqwbfjkbqwkjfbqwbfqkwbfkqwbnfdkwnkfjawklndlkawdawd",
+    "create": "2022-11-12",
+    "update": "2022-11-12",
+    "choice": "Active"
+  }
+},
+{
+  "model": "webapp.bookguest",
+  "pk": 4,
+  "fields": {
+    "name": "Giorno",
+    "email": "jojo_reference@example.com",
+    "content": "sadqwndlqwnlfnqwnflkbkqnldnalknlkdmaNDLKWNL;DNLQWKBFQWNLKFNW",
+    "create": "2022-11-12",
+    "update": "2022-11-12",
+    "choice": "Active"
+  }
+},
+{
+  "model": "webapp.bookguest",
+  "pk": 5,
+  "fields": {
+    "name": "Joseph",
+    "email": "jojo_reference@example.com",
+    "content": "asdwqihdoiqwdbqwbdobqwbdoibqwonflknlkanslnfasnfnlasnlfnasfsafas",
+    "create": "2022-11-12",
+    "update": "2022-11-12",
+    "choice": "Active"
+  }
+},
+{
+  "model": "webapp.bookguest",
+  "pk": 6,
+  "fields": {
+    "name": "Jonathan",
+    "email": "jojo_reference@example.com",
+    "content": "dqwkjfbqwbfbqwbfwqbopfdnqbwlkndlkankfbkjasbfkblaksbflkbakfbwqkbflqwbwlkfblkblf",
+    "create": "2022-11-12",
+    "update": "2022-11-12",
+    "choice": "Active"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$GDOy2HRPCoNR2PeKZnuu7M$PnuTZWyfa0QgpIkyiIQ5BQVsWLMfZLQH+BlnL9Q4n/g=",
+    "last_login": "2022-11-12T05:55:39.872Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-12T05:55:22.001Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
