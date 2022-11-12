@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Delete Article{% endblock %}
+{% block content %}
+    <h1 class="text-center">Are you sure want to delete  "{{ guest.name }}" ?</h1>
+    <br><br><br>
+    <form method="POST" action="" class="text-center" >
+        {% csrf_token %}
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-lg">Confirm</button>
+            <button type="button" class="btn btn-secondary btn-lg"><a href="{% url "index" %}">Cancel</a></button>
+        </div>
+    </form>
+{% endblock %}

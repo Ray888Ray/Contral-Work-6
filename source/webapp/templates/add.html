@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Create ToDo</h1>
+
+<form action="/guest/add/" method="post">
+{% include 'partial/form.html'  with button_text='Create' %}
+</form>
+{% endblock %}
+
+
+
+
+{#{% extends "base.html" %}#}
+{#{% block title %}Create Article{% endblock %}#}
+{#{% block content %}#}
+{#   <h1>Create Article</h1>#}
+{#   <form method="POST" action="">#}
+{#       {% csrf_token %}#}
+{#       <p><label>Name</label>#}
+{#           <input type="text" name="name"></p>#}
+{#       <p><label>Email</label>#}
+{#           <input type="text" name="email"></p>#}
+{#       <p><label>Info</label>#}
+{#           <textarea name="content"></textarea></p>#}
+{#       <p><input type="submit" value="Submit"></p>#}
+{#   </form>#}
+{#{% endblock %}#}
